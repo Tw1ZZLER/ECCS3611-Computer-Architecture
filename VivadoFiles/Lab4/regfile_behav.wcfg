@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ram_array_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ram_array" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,108.248 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,548.249 ns"></ZoomEndTime>
+      <Cursor1Time time="1,202.248 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/ram_array/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_array/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_array/adr" type="array">
+      <obj_property name="ElementShortName">adr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">adr[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_array/din" type="array">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_array/dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_array/mem" type="array">
+      <obj_property name="ElementShortName">mem[63:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[63:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_array/N" type="other">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_array/M" type="other">
+      <obj_property name="ElementShortName">M</obj_property>
+      <obj_property name="ObjectShortName">M</obj_property>
+   </wvobject>
+</wave_config>
